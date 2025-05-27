@@ -1,0 +1,24 @@
+17:29:52 **** Incremental Build of configuration Debug for project ADC_Example1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G491xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:132:15: warning: unused variable 'channel2' [-Wunused-variable]
+  132 |           int channel2 = HAL_ADC_GetValue(&hadc1);              // get ADC values in expression
+      |               ^~~~~~~~
+../Core/Src/main.c:128:15: warning: unused variable 'channel1' [-Wunused-variable]
+  128 |           int channel1 = HAL_ADC_GetValue(&hadc1);      // get ADC values in expression
+      |               ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Example1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/if-himanshu/STM32CubeIDE/workspace_1.18.1/ADC_Example1/STM32G491RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Example1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Example1.elf
+ 
+arm-none-eabi-size  ADC_Example1.elf 
+arm-none-eabi-objdump -h -S ADC_Example1.elf  > "ADC_Example1.list"
+   text	   data	    bss	    dec	    hex	filename
+  19228	     32	   1848	  21108	   5274	ADC_Example1.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Example1.list
+ 
+
+17:29:52 Build Finished. 0 errors, 2 warnings. (took 277ms)
+

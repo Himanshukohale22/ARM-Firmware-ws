@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 6 resources" deleteContents="false" description="Delete 6 resources" element1="/Flightcontroller/Core/Inc/barometer.h" element2="/Flightcontroller/Core/Inc/gps.h" element3="/Flightcontroller/Core/Inc/imu.h" element4="/Flightcontroller/Core/Src/barometer.c" element5="/Flightcontroller/Core/Src/gps.c" element6="/Flightcontroller/Core/Src/imu.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1748339398644"/>
+</session>

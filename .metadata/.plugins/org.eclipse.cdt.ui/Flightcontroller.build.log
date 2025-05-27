@@ -1,0 +1,17 @@
+15:23:52 **** Incremental Build of configuration Debug for project Flightcontroller ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/BN008.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32H5xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/BN008.d" -MT"Core/Src/BN008.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/BN008.o"
+arm-none-eabi-gcc -o "Flightcontroller.elf" @"objects.list"   -mcpu=cortex-m33 -T"/home/if-himanshu/STM32CubeIDE/workspace_1.18.1/Flightcontroller/STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Flightcontroller.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Flightcontroller.elf
+ 
+arm-none-eabi-size  Flightcontroller.elf 
+arm-none-eabi-objdump -h -S Flightcontroller.elf  > "Flightcontroller.list"
+   text	   data	    bss	    dec	    hex	filename
+  16524	     32	   1744	  18300	   477c	Flightcontroller.elf
+Finished building: default.size.stdout
+ 
+Finished building: Flightcontroller.list
+ 
+
+15:23:52 Build Finished. 0 errors, 0 warnings. (took 170ms)
+
