@@ -428,3 +428,6 @@ java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because 
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-05-27 17:15:33.967
 !MESSAGE Indexed 'Example1_Interrupt' (24 sources, 86 headers) in 2.08 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-27 23:34:10.272
+!MESSAGE Indexed 'DMA_ADC' (24 sources, 86 headers) in 1.74 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
