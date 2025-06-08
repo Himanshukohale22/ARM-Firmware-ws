@@ -74,6 +74,15 @@ void StartTask02(void *argument);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+void task1(*xparam){
+	vprintf("running task1");
+}
+
+void task2(*xparam){
+	vprintf("running task2");
+
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -84,8 +93,11 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
+	xTaskCreate(xparam,"Task1", 1000, none, 1, Task1);
+	xTaskCreate(xparam,"Task2", 1000, none, 2, Task2);
+	vTaskStartScheduler();
 
-  /* USER CODE END 1 */
+	/* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
 

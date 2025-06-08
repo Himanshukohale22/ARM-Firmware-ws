@@ -1,7 +1,0 @@
-#include "stm32h503xx.h"
-
-int main(int argc, char **argv) {
-	while(1){
-
-	}
-}

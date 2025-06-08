@@ -431,3 +431,54 @@ java.lang.NullPointerException: Cannot invoke "java.util.List.get(int)" because 
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-05-27 23:34:10.272
 !MESSAGE Indexed 'DMA_ADC' (24 sources, 86 headers) in 1.74 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+!SESSION 2025-05-28 11:12:21.238 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-05-28 11:12:27.422
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-05-28 11:12:27.422
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-05-28 11:12:30.802
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-05-28 11:15:07.299
+!MESSAGE Indexed 'MPU6050_G4' (24 sources, 86 headers) in 1.98 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+!SESSION 2025-06-05 23:32:04.192 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-05 23:32:09.525
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-05 23:32:09.527
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-05 23:32:13.720
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-06 00:09:24.186
+!MESSAGE Indexed 'FlightControllerDrone' (21 sources, 83 headers) in 1.47 sec: 5,527 declarations; 34,671 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.005%)
+!SESSION 2025-06-06 23:13:10.349 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-06 23:13:18.079
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-06 23:13:18.080
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-06 23:13:22.018
+!MESSAGE Started RMI Server, listening on port 41337
