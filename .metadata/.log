@@ -482,3 +482,63 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-06 23:13:22.018
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-10 00:02:18.827 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-10 00:02:23.242
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-10 00:02:23.242
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-10 00:02:26.439
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-10 00:05:04.734
+!MESSAGE Indexed 'TVCFlightController' (24 sources, 86 headers) in 1.59 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-10 00:06:00.149
+!MESSAGE Indexed 'TimerServo' (24 sources, 86 headers) in 1.28 sec: 5,675 declarations; 28,241 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0059%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-10 01:59:40.636
+!MESSAGE Indexed 'TimerServo' (26 sources, 88 headers) in 1.44 sec: 7,094 declarations; 49,242 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0036%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-06-10 01:59:42.114
+!MESSAGE Indexed 'TimerServo' (26 sources, 88 headers) in 0.782 sec: 7,094 declarations; 49,242 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0036%)
+!SESSION 2025-06-10 21:28:31.673 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-10 21:28:36.141
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-10 21:28:36.142
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-10 21:28:39.607
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-06-11 17:26:23.323 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-06-11 17:26:40.637
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-06-11 17:26:42.917
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-06-11 17:26:42.918
+!MESSAGE Log4j2 initialized with config file /home/if-himanshu/STM32CubeIDE/workspace_1.18.1/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-06-11 17:26:46.648
+!MESSAGE Started RMI Server, listening on port 41337
