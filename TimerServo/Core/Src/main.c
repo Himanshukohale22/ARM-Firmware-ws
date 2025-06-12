@@ -60,9 +60,21 @@ static void MX_TIM1_Init(void);
 /* USER CODE BEGIN 0 */
 
 void ServoAngle(TIM_HandleTypeDef *htim, uint32_t channel, uint8_t angle){
-	uint32_t pulse_lenght = 250 + (angle*(1250-250)/180);
-	__HAL_TIM_SET_COMPARE(htim,channel,pulse_lenght);
+	// clock sourch is 170Mhz for controller
+	// prescalar 340 arr 10000
+	// 50Hz servo motor
+	// TIM_CLK = 2us
+	// (0,180) == (0.5ms-2.5ms)
 
+	uint32_t pulse_lenght = 250 + (angle*(1250-250)/180); // converting pulse length according to required angle
+
+	/*
+	 The __HAL_TIM_SET_COMPARE() macro is a convenient way provided by STM32 HAL to directly
+	 update the compare value of a timer's channel at runtime, without needing to reconfigure
+	 the timer channel using the full HAL_TIM_PWM_ConfigChannel() or HAL_TIM_OC_ConfigChannel() function again.
+	 */
+
+	__HAL_TIM_SET_COMPARE(htim,channel,pulse_lenght);
 }
 
 /* USER CODE END 0 */
