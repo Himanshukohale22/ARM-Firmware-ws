@@ -44,6 +44,7 @@
 COM_InitTypeDef BspCOMInit;
 TIM_HandleTypeDef htim1;
 
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -58,6 +59,15 @@ static void MX_TIM1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+static float Angle=0;
+static float x=0;
+static float y=0;
+static	float theta=0;
+
+
+
+
 
 void ServoAngle(TIM_HandleTypeDef *htim, uint32_t channel, uint8_t angle){
 	// clock sourch is 170Mhz for controller
@@ -76,6 +86,7 @@ void ServoAngle(TIM_HandleTypeDef *htim, uint32_t channel, uint8_t angle){
 
 	__HAL_TIM_SET_COMPARE(htim,channel,pulse_lenght);
 }
+
 
 /* USER CODE END 0 */
 
@@ -140,6 +151,8 @@ int main(void)
   {
 
     /* USER CODE END WHILE */
+	  // first servo1
+
 	  for (uint8_t angle = 0;  angle < 180; angle+=20) {
 		  ServoAngle(&htim1, TIM_CHANNEL_1, angle);
 		  HAL_Delay(1000);
@@ -149,6 +162,18 @@ int main(void)
 		  HAL_Delay(1000);
 
 	 	}
+
+	  //second servo2
+
+	  for (uint8_t angle = 180; angle <180; angle+=20){
+		  ServoAngle(&htim1, TIM_CHANNEL_2, angle);
+		  HAL_Delay(1000);
+	  }
+
+	  for (uint8_t angle = 180; angle <180; angle+=20){
+	 		  ServoAngle(&htim1, TIM_CHANNEL_2, angle);
+	 		  HAL_Delay(1000);
+	 	  }
 
 
     /* USER CODE BEGIN 3 */
